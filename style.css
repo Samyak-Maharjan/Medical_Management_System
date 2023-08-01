@@ -12,6 +12,7 @@ body {
   background: url(Picture/hospital.jpg);
   background-repeat: no-repeat;
   background-size:cover;
+  background-position-y: -240px;
 }
 button:hover{
   background-color: aliceblue;
