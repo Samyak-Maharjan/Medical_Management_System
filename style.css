@@ -1,10 +1,5 @@
 /* Reset default margin and padding for all elements */
-body,
-h1,
-h2,
-p,
-ul,
-li {
+html{
   margin: 0;
   padding: 0;
 }
@@ -14,11 +9,21 @@ body {
   font-family: Arial, sans-serif;
   background-color: #f0f0f0;
   color: #333;
+  background: url(Picture/hospital.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
 }
-#backgroungImg {
-  height: 100%;
-  width: 100%;
+button:hover{
+  background-color: aliceblue;
 }
+#loginbtn{
+  height: 35px;
+  width: 100px;
+  float: right;
+}
+
+  
+
 
 /* Header styles */
 header {
