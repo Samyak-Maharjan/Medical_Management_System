@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #ead9d9;
+  background-color: #f2ebeb;
   color: #333;
   /* background: url(Picture/hospital.jpg); */
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: red;
+  background-color: rgb(246, 73, 73);
   margin-top: 5px;
 }
 .navbar li {
@@ -91,12 +91,15 @@ body {
   background-color: #6b73e9;
 }
 .login{
+  border: solid #ac6969 1px;
+  border-radius: 5px 5px 0 0;
   display: flex;
 }
 #loginForm{
-  margin: 15px 15px 15px 25px;
+  margin: 15px 15px 0px 25px;
 }
 #banner{
+  padding: 3px;
   height: 10%;
   width: 50%;
 }
@@ -108,7 +111,7 @@ body {
   margin: 50px 0 0 150px;
   padding: 5px 5px 5px 5px; 
   width: 310px;
-  height: 350px;
+  height: 360px;
 }
 .input_field{
   color: white;
@@ -141,8 +144,7 @@ body {
   background: #b7aeae;
   cursor: pointer;
 }
-
-.login a{
+#signup a{
   text-decoration: none;
   color: beige ;
   font-size: large;
@@ -173,4 +175,32 @@ select{
   margin-left: 1%;
   width: 98%;
   box-sizing: border-box;
+}
+.login span{
+  margin-left: 15px;
+}
+#searchInformation{
+  display: flex;
+  margin: 0px 15px 15px 25px;
+  padding: 10px 15px;
+  background-color:rgb(246, 73, 73) ;
+
+}
+.searchIcons{
+  margin: 0 90px;
+
+
+}
+.searchIcons img{
+  height: 75px;
+  width: 74px;
+  padding: 0 5px;
+}
+.searchIcons a{
+  text-decoration: none;
+  color: #ffffff;
+  align-self: center;
+}
+.searchIcons a:hover{
+  text-decoration: underline;
 }
