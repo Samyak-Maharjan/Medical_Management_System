@@ -6,7 +6,7 @@ html {
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #d42121;
+  background-color: #ead9d9;
   color: #333;
   /* background: url(Picture/hospital.jpg); */
   background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body {
   margin-right: auto;
   width: 50%;
   height: 130px;
-  width: 795px;
+  width: 735px;
 }
 .headImage {
   display: flex;
@@ -28,37 +28,6 @@ body {
   height: 75px;
   width: 110px;
 }
-
-/*
-.navbar {
-  align-items: center;
-  margin: 5px 0px;
-  padding: 8px 120px;
-  display: flex;
-  background-color: red;
-}
- .navbar textarea {
-  width: 191px;
-  height: 20px;
-  border-radius: 5px 0 0 5px;
-  padding-right: 10px;
-  margin-right: 0;
-}
-.navbar button {
-  margin: 5px 5px 5px 5px;
-  height: 10px;
-  width: 20px;
-  font-weight: 900;
-  border-radius: 0 5px 5px 0;
-}
-.navbar li {
-  display: block;
-  margin: 0px 30px;
-  padding: 3px;
-  list-style-type: none;
-  height: fit-content;
-  width: fit-content;
-} */
 .navbar {
   display: flex;
   align-items: center;
@@ -120,4 +89,88 @@ body {
 #search button:hover {
   cursor: pointer;
   background-color: #6b73e9;
+}
+.login{
+  display: flex;
+}
+#loginForm{
+  margin: 15px 15px 15px 25px;
+}
+#banner{
+  height: 10%;
+  width: 50%;
+}
+.suff_box{
+  background-color: rgba(33,33,33,0.5);
+  border-radius: 8px;
+  border-color: wheat;
+  border: 3px solid #4f4e4d;
+  margin: 50px 0 0 150px;
+  padding: 5px 5px 5px 5px; 
+  width: 310px;
+  height: 350px;
+}
+.input_field{
+  color: white;
+  margin: 10px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 15px;
+  font-size: x-large; 
+  box-sizing: border-box;
+}
+.title{
+  color: white;
+  justify-content: center;
+  margin: 10px;
+  display: flex;
+  font-size: xx-large;
+}
+.login button{
+  box-shadow: #ff0000;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.627);
+  width: 115px;
+  height: 30px;
+  text-align: center;
+  font-size: larger;
+  color: beige ;
+  margin: 0 0 0 90px;
+  
+}
+.login button:hover{
+  background: #b7aeae;
+  cursor: pointer;
+}
+
+.login a{
+  text-decoration: none;
+  color: beige ;
+  font-size: large;
+}
+#signup{
+  margin: 8px 0 0 90px;
+}
+.suff_box input{
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: 1%;
+  width: 98%;
+  box-sizing: border-box;
+}
+.text{
+  display: inline;
+  height: 0;
+  width: 0;
+  padding-left: 2.5%;
+  overflow: visible;
+  font-size: x-large;
+}
+select{
+  border-radius: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin-left: 1%;
+  width: 98%;
+  box-sizing: border-box;
 }

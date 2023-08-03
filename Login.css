@@ -6,11 +6,10 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
-    background: url(Picture/hospital.jpg);
+
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: -240px;
-
     margin: 0;
     display: flex;
     justify-content: center;

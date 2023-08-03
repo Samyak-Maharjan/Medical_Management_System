@@ -8,14 +8,18 @@
     <link rel="icon" type="image/x-icon" href="Picture/logo.png" />
   </head>
   <body>
-    <div class="headImage">
-      <a href="index.html"><img src="Picture/logo.png" alt="Logo" id="logo" /></a>
-      <img
-        src="Picture/HealthVault Donor.png"
-        alt="HealthVault Donor"
-        id="headerImg"
-      />
-    </div>
+    <section id="headImg">
+      <div class="headImage">
+        <a href="index.html"><img src="Picture/logo.png" alt="Logo" id="logo" /></a>
+        <img
+          src="Picture/HealthVault Donor.png"
+          alt="HealthVault Donor"
+          id="headerImg"
+        />
+      </div>
+  </section>
+
+  <section id="navigation">
     <div class="navbar">
       <li><a href="#">Home</a></li>
       <li><a href="#">Dashboard</a></li>
@@ -27,10 +31,33 @@
         <button>Search</button>
       </li>
     </div>
+  </section>
 
-    <!-- Main Content -->
-    <main>
-      <section>
+  <section id="loginForm">
+    <div class="login">
+      <img src="Picture/banner.jpg" alt="Donate Blood, Save Life" id="banner">
+      <div class="suff_box">
+        <div class="title">Log In</div>
+        <div class="input_field">
+            <div class="text">
+                Email
+            </div>
+            <br>
+            <input type="stuff">
+        </div>
+        <div class="input_field">
+            <div class="text">
+                Password
+            </div>
+            <br>
+            <input type="stuff">
+        </div>
+        <br>
+        <button >Submit</button>
+        <br>
+        <button id="signup"><a href="signup.html">Sign up</a></button>
+    </div>
+    </div>
         <h2>Dashboard</h2>
         <!-- Add relevant information and actions for the user's dashboard -->
         <p>Hello, [Username]! Here's your dashboard:</p>
