@@ -1,7 +1,7 @@
 /* Reset default margin and padding for all elements */
 html {
-  margin: 2px;
-  padding: 2px;
+  margin: 5px;
+  padding: 5px;
 }
 
 body {
@@ -18,12 +18,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
-  height: 184px;
-  width: 858px;
-  border-radius: 20px;
-  display: flex;
-  justify-content: center;
-  /* border: solid black 1px; */
+  height: 130px;
+  width: 795px;
 }
 .headImage {
   display: flex;
@@ -31,9 +27,6 @@ body {
 #logo {
   height: 75px;
   width: 110px;
-}
-#logo:hover{
-  cursor: pointer;
 }
 
 /*
@@ -70,7 +63,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgba(252, 0, 0, 0.819);
+  background-color: red;
   margin-top: 5px;
 }
 .navbar li {
@@ -106,7 +99,7 @@ body {
   margin: 5px 0px;
 }
 #search input {
-  height: 40px;
+  height: 20px;
   padding: 1px;
   font-size: 14px;
   width: 100%;
@@ -124,7 +117,7 @@ body {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
 }
-#search button:hover{
-  cursor: pointer;  
-  background-color: #6578f5;
+#search button:hover {
+  cursor: pointer;
+  background-color: #6b73e9;
 }
