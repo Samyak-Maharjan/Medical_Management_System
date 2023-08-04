@@ -181,7 +181,7 @@ select{
 }
 #searchInformation{
   display: flex;
-  margin: 0px 15px 15px 25px;
+  margin: 0px 15px 0px 25px;
   padding: 10px 15px;
   background-color:rgb(246, 73, 73) ;
 
@@ -203,4 +203,38 @@ select{
 }
 .searchIcons a:hover{
   text-decoration: underline;
+}
+
+#bloodComp{
+  margin: 0px 15px 15px 25px;
+  border: solid #ac6969 1px;
+  display: flex;
+  /* padding: 10px 15px; */
+}
+.compactibility{
+  margin: 0px 15px 2px 0;
+}
+.compactibility img{
+  height: 290px;
+  width: 385px;
+}
+#donor{
+  margin: 0px 35px 0 0;
+}
+#compt{
+  padding: 10px 35px 10x 35px;
+}
+#camp{
+  border: 1px solid rgb(228, 133, 133);
+  margin: 2px 0 2px 35px;
+}
+#camp th{
+  background:#f2baba ;
+  padding: 0 0 0 0px;
+  height: 50px;
+}
+#camp td{
+  height: 250px;
+  width: 385px;
+  content-visibility: hidden;
 }
